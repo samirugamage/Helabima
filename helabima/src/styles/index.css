@@ -1,0 +1,46 @@
+/* Style the content */
+.content{
+	background: #FFF;
+	width: 100%;
+}
+
+/* Style the introduction section */
+.square
+{
+	margin: 2% 10% 0px 10%;
+	border: 2px solid darkgreen;
+	padding-bottom: 3%;
+}
+
+/* Style the image in introduction section */
+.square img
+{
+	float: left;
+	margin: 3% 50px 10px 20%;
+	border: 2px solid black;
+}
+
+/* Style the paragraph in introduction section */
+.square p
+{
+	text-align: justify;
+	font-size: 25px;
+	margin: 10px 200px 10px 20px;
+}
+
+/* Style the contact us section */
+.contact
+{
+	margin: 2% 10% 0px 10%;
+	border: 2px solid darkgreen;
+}
+
+/* Style the cells in contact us table */
+th, td
+{
+	padding: 10px 50px 10px 50px;
+	margin: 10px;
+	width: 33%;
+	text-align: left;
+	font-size: 25px;
+}

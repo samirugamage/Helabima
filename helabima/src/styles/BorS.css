@@ -1,0 +1,63 @@
+/* Style the background */
+#background
+{
+	background-image: url(/helabima/src/img/mi03.jpg);
+	background-size: 103% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -26px -8px 0px -10px;
+}
+
+/* Style the content */
+.content
+{
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	font-family: Garamond, serif;
+	height: 610px;
+}
+
+/* Style the heading */
+.content h1
+{
+	padding-top: 50px;
+	padding-left: 80px;
+	font-size: 50px;
+	height: 50px;
+}
+
+/* Style the links to seller and buyer logins */
+.content #S, .content #B
+{
+	background-color: #ffffff;
+  	border: 1px solid black;
+  	opacity: 0.6;
+	font-size: 75px;
+	font-weight: 10px;
+	text-decoration: none;
+	color: black;
+	padding: 100px;
+	border-radius: 25px;
+}
+
+.content #S:hover, .content #B:hover
+{
+	transition: all 0.2s;
+	text-decoration: underline;
+	background-color: ghostwhite;
+	opacity: 0.8;
+}
+
+/* Style the links to seller logins */
+.content #S
+{
+	float: left;
+	margin: 50px 0px 0px 250px;
+}
+
+/* Style the links to buyer logins */
+.content #B
+{
+	float: right;
+	margin: 50px 250px 0px 0px;
+}

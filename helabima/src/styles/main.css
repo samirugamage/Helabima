@@ -1,0 +1,181 @@
+body {
+	background:#fff;
+	font-family: Garamond, serif;
+}
+
+/* Style the header */
+.header{
+	background: #fff;
+	height: 110px;
+	margin: -8px -8px -9px -10px;
+}
+
+/* Style the icon */
+.header #icon {
+	border: 1px solid #000;
+	margin: 10px 0px 0px 12px;
+	padding: 10px;
+}
+.header #icon:hover{
+	transition: 0.2s ease;
+ 	border: 2px solid black;
+  	padding: 15px;
+}
+
+/* Style the profile pic */
+.header #profile {
+	border-radius: 25px;
+	float: right;
+	border: 1px solid #000;
+	margin: 10px 12px 0px 0px;
+	padding: 7px;
+}
+.header #profile:hover{
+	transition: 0.2s ease;
+ 	border: 2px solid black;
+  	padding: 10px;
+}
+
+/* Style the username */
+.header #username
+{
+	float:right;
+	font-size:30px;
+	font-family:Garamond, serif;
+	color:black;
+	margin:25px 10px;
+	text-decoration:none;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius:10px
+}
+
+/* Style the logour */
+.header #logout
+{
+	float:right;
+	font-size:20px;
+	font-family:Garamond, serif;
+	color:black;
+	margin:35px 10px;
+	text-decoration: none;
+}
+
+.header #logout:hover
+{
+	transition: all 0.2s;
+	text-decoration: underline;
+}
+
+
+/* Style the navigation bar */
+.header .nav
+{
+	float: right;
+	color: black;
+	margin: 0px 0px 0px 10px;
+}
+
+/* Style the search icon */
+.header #aboutus{
+	margin: 20px 250px 0px 10px;
+	padding: 5px;
+	object-fit: cover;
+}
+
+/* Style the lands icon */
+.header #lands{
+	margin: 20px 50px 0px 10px;
+	padding: 5px;
+	object-fit: cover;
+}
+
+/* Style the home icon */
+.header #home{
+	margin: 20px 50px 0px 10px;
+	padding: 5px;
+	object-fit: cover;
+}
+
+.header #lands:hover, .header #aboutus:hover, .header #home:hover, .header #username:hover {
+	transition: all 0.2s;
+ 	border: 2px solid black;
+  padding: 10px;
+}
+
+.mainImg img{
+	margin: 10px 0px 0px -10px;
+}
+
+
+/* Style the footer */
+.footer{
+	border: 1px solid #2F4F4b;
+	background: #2F4F4F;
+	height: 100px;
+	margin: 0px -8px -8px -10px;
+}
+
+/* Style the icon */
+.footer #icon {
+	background: white;
+	margin: 12px 5px 0px 10px;
+	padding: 10px;
+}
+
+/* Style the navigation bar */
+.footer .nav {
+	float: right;
+	color: black;
+	margin: 10px 0px 0px 10px;
+	font-family: Garamond, serif;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/* Style the home, land, search and contact */
+.footer #lands, .footer #home, .footer #aboutus, .footer #contact{
+	margin: 30px 30px 0px 10px;
+	padding: 5px;
+}
+.footer #lands:hover, .footer #aboutus:hover, .footer #home:hover, .footer #contact:hover {
+ 	border-bottom: 2px solid black;
+}
+
+/* Style the back button*/
+.back2 a
+{
+	margin-top: 20px;
+	margin-left:25px;
+	border: 2px solid black;
+	padding: 7px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	font-size:25px
+}
+
+.back2 a:hover
+{
+	text-decoration: underline;
+}
+
+#warning, #success
+{
+	display: none;
+	padding: 0.5%;
+	width: 99%;
+}
+  
+#success
+{
+	color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+#warning
+{
+	color: #D8000C;
+	background: #FFD2D2;
+}
+

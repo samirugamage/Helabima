@@ -1,0 +1,224 @@
+/* Style the content */
+.content
+{
+	background: #FFF;
+	width: 100%;
+}
+
+/* Style the sections */
+div.login, div.signup, div.editProf, div.dltProf
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 500px;
+}
+
+/* Style the login */
+div.login
+{
+	  margin: 70px 0px 10px 500px;
+}
+
+/* Style the login container */
+div.login-container
+{
+	margin: 5px -8px 10px -10px;
+	padding: 10px;
+	background-image: url(/helabima/src/img/mi05.jpg);
+	height: 600px;
+	background-size: 100% 620px;
+}
+
+#id
+{
+	margin: 50px 0px 75px 500px;
+}
+
+/* Style the signup */
+div.signup
+{
+	  margin: 65px 0px 65px 500px;
+}
+
+/* Style the signup container */
+div.signup-container
+{
+	margin: 0px -8px 10px -10px;
+	padding: 10px 10px 10px 10px;
+	background-image: url(/helabima/src/img/mi06.jpg);
+	height: auto ;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Style the edit profile */
+div.editProf
+{
+	margin: 0px 0px 10px 500px;
+}
+
+/* Style the edit profile container */
+div.editProf-container
+{
+	margin: 0px -8px 10px -10px;
+	padding: 10px 10px 10px 10px;
+	height: auto;
+}
+
+/* Style the delete profile */
+div.dltProf
+{
+	margin: 30px 0px 30px 500px;
+}
+
+/* Style the title */
+#title
+{
+	font-size: 40px;
+	padding-left: 200px;
+	margin: 0px 0px 5s0px 0px;
+}
+
+/* Style the input label */
+ .label, #sellerid-Label, #name-Label, #password-Label, #email-Label, #name-Label, #mnum-Label
+{
+	font-size: 25px;
+}
+
+/* Style the inputs */
+ .inputs, #sellerid-input, #name-input, #password-input, #email-input, #mnum-input, #sellerid-input-4dlt, #password-input-4dlt
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px 40px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.inputs:focus:valid, #sellerid-input:focus:valid, #name-input:focus:valid, #password-input:focus:valid, #email-input:focus:valid, #mnum-input:focus:valid, #sellerid-input-4dlt:focus:valid, #password-input-4dlt:focus:valid  
+{
+  border: 3px solid #3CB371;
+}
+
+/* Style the paragrapgh in the end of the form */
+#para
+{
+	font-size: 20px;
+	padding-left: 120px;
+	margin: 0px 5px 5s0px 0px;
+}
+
+/* Style the submit button */
+#submit, #submitEditProf, #dltProf 
+{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
+
+#submit:hover, #submitEditProf:hover 
+{
+  background-color: #45a049;
+}
+
+/* Style the user details section */
+div.user-details {
+	margin-top:20px;
+	margin-left:250px;
+	height:55px;
+	font-family: Garamond, serif;
+	font-size: 25px;
+	width: 980px;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px 10px;
+}
+
+/* Style the edit profile button in user details section */
+.user-details #editProf
+{
+	float:right;
+	border: 1px solid black;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	margin-top: -48px;
+}
+
+/* Style the delete profile button in edit profile section */
+#dltProf
+{
+	background-color: #dF4C50;
+	padding: 10px 210px 10px 210px;
+	margin-left: 500px;
+	text-decoration: none;
+}
+
+#dltProf:hover
+{
+  background-color: #d04549;
+}
+
+/* Style the post a new ad button*/
+#newAd
+{
+	float:right;
+	border: 1px solid red;
+	padding: 10px;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	border-radius: 10px;
+	margin: 30px 50px 20px 0px;
+}
+
+#newAd:hover
+{
+	text-decoration: underline;
+}
+
+/* Style the adlist container*/
+div.adlist
+{
+	margin:20px 50px 10px 50px;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/* Style the adlist table*/
+#adTbl {
+  border-collapse: collapse;
+  width: 100%; 
+  border: 1px solid #ddd;
+}
+
+/* Style the cells in adlist */
+#adTbl th, #adTbl td
+{
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the row in adlist */
+#adTbl tr:hover {
+  background-color: #fafbfc;
+}
+
+/* Style the links in adlist */
+#adTbl #edtAd:hover, #adTbl #viewAd:hover
+{
+	text-decoration: none;
+}
+

@@ -1,0 +1,94 @@
+/*style the heading */
+#heading
+{
+	font-family: Garamond, serif;
+	font-size: 40px;
+	padding: 10px 10px 10px 20px;
+	margin: 30px 100px 10px 100px;
+	border: 1px solid grey;
+}
+
+/*style the image */
+#image
+{
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid grey;
+}
+
+/*style the add to wish list button*/
+#addToWishlist
+{
+	border: 3px solid red;
+	padding: 10px 20% 10px 20%;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	width: 20%;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#addToWishlist:hover
+{
+	background-color: red;
+	color: white;
+}
+
+/*style the advertisement details table */
+#adDtls
+{
+	border: 1px solid grey;
+	margin: 5px 0px 15px 0px;
+	font-family: Garamond, serif;
+}
+
+/*style the cells in advertisement details tabl */
+#adDtls td, #adDtls th
+{
+	padding: 10px 30px 10px 30px;
+}
+
+#adDtls th
+{
+	font-size: 25px;
+}
+
+#adDtls td
+{
+	font-size: 22px;
+}
+
+/*style the description */
+#desc
+{
+	padding: 10px 10px 10px 10px;
+	margin: 30px 12.5% 10px 12.5%;
+
+	font-size: 20px;
+}
+
+/*style the contact details table */
+#sCtDtls
+{
+	border: 1px solid grey;
+	margin: 5px 0px 15px 0px;
+	font-family: Garamond, serif;
+	text-align: left;
+}
+
+/*style the cells in contact details table */
+#sCtDtls td, #adDtls th
+{
+	padding: 10px 30px 10px 30px;
+}
+
+#sCtDtls th
+{
+	font-size: 22px;
+}
+
+#sCtDtls td
+{
+	font-size: 20px;
+} 

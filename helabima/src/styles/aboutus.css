@@ -1,0 +1,40 @@
+/* style the title of questions */
+.collapse {
+  background-color:rgb(87, 88, 88);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 100px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-family: Garamond, serif;
+}
+
+.active, .collapse:hover {
+  background-color: rgb(20, 116, 119);
+}
+
+/* style the content */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background: rgb(220, 236, 195);
+  width: 100%;
+  font-family: Garamond, serif;
+}
+
+/* style the questions */
+div.questions {
+	margin-top:20px;
+	margin-left:250px;
+	height:55px;
+	font-size: 25px;
+	width: 980px;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 15px 10px;
+  font-family: Garamond, serif;
+}

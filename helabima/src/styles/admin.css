@@ -1,0 +1,65 @@
+/* Style the content */
+.content{
+	background: #FFF;
+	width: 100%;	
+}
+
+/* style the admin dashboard */
+.adminpanel
+{
+	padding: 12% 5% 10% 12% ;
+	margin-bottom: 9.3% ;
+}
+
+/* style the links to other sections */
+#mngads, #mngb, #mngs, #mngp
+{
+	color: black;
+	text-decoration: none;
+	padding: 50px 20px 50px 20px;
+	margin: 10px;
+	border: 2px solid black;
+	font-size: 30px;
+	border-radius: 25px;
+}
+
+#mngads:hover, #mngb:hover, #mngs:hover, #mngp:hover
+{
+	text-decoration: underline;
+	border: 3px solid black;
+}
+
+
+/* style the section */
+div.adlist
+{
+	margin:20px 50px 10px 50px;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+/* style the table */
+#adTbl {
+  border-collapse: collapse;
+  width: 100%; 
+  border: 1px solid #ddd;
+}
+
+/* style the cells */
+#adTbl th, #adTbl td
+{
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* style the row */
+#adTbl tr:hover {
+  background-color: #fafbfc;
+}
+
+/* style the the links */
+#adTbl #edtAd:hover, #adTbl #viewAd:hover
+{
+	text-decoration: none;
+}

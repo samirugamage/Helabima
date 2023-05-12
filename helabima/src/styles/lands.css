@@ -1,0 +1,100 @@
+/* style the serach section */
+div.search-box
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div.search-box::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* style the input sections */
+div.inputs
+{
+	float: left;
+	width: 12.9%;
+	padding: 5px;
+	margin: 5px;
+	display: grid;
+}
+
+/* style the input labels */
+.label
+{
+	font-size: 20px;
+}
+
+/* style the inputs */
+.input
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px 40px 0px;
+  display: grid;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.input:focus:valid
+{
+  border: 3px solid #3CB371;
+}
+
+/* style the buttons */
+.button
+{
+  width: 100%;
+  height: auto;
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
+
+.button:hover 
+{
+  background-color: #45a049;
+}
+
+/* style the view ads section */
+div.viewOffers::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* style the ads */
+div.ofr
+{
+	float: left;
+	width: 23.4%;
+	border: 2px solid darkgreen;
+	padding: 5px;
+	margin: 5px;
+	display: grid;
+}
+
+/* style the title of the ads */
+#adTitle
+{
+	font-size: 20px;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#adTitle:hover
+{
+	text-decoration: underline;
+}

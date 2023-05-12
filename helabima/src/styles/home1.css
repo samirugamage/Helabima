@@ -1,0 +1,154 @@
+/* Image Slider */
+.imageslider{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider{
+    
+    left:5%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.slides{
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 555%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    border-radius: 10px;
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    border-radius: 10px;
+    width: 81%;
+    height: 100%;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+    position: relative;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    
+    border: 3px solid #B2170A;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #FF210F;
+}
+
+#radio1:checked ~ .first{
+    
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    
+    margin-left: -60%;
+}
+
+
+/* Headline */
+.hd{
+    border-radius: 10px;
+    padding-bottom: 50px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    min-height: 40vh;
+    background: rgba(0, 0, 0, .5);
+}
+
+.Headline {
+    color: #fff;
+    width: 90%;
+    padding-top: 30px; 
+    position: relative;
+    left: 5%;
+    text-align: center;
+}
+
+.Headline h1{
+    font-size: 56;
+}
+
+body {
+	background-color;#cccccc;
+	height:500px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position;relative;
+}
+#Headlin {
+	color: yellow;
+}
+
+#HK {
+	font-size: 45px;
+	color: orange;
+}
+
+#HS {
+	text-indent: 60px;
+	font-size: 32px;
+	font-style: oblique;
+}
+
+#SC {
+	font-size:30px;
+	color:white;
+}
+#TS {
+	font-size:20px;
+	color:white;
+	
+}
+#Sam {
+	color:#FFD700;
+}
